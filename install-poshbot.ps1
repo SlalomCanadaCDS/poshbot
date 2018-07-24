@@ -36,4 +36,4 @@ $myBotConfig = New-PoshBotConfiguration @botParams
 Save-PoshBotConfiguration -InputObject $myBotConfig -Path C:\poshbot\Config.psd1 -force
 
 # Run PoshBot as a service
-#C:\poshbot\service-poshbot.ps1
+C:\poshbot\service-poshbot.ps1
